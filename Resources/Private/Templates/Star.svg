@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="{settings.widthAndHeightBackground}px" height="{settings.widthAndHeightBackground}px" viewBox="0 0 {settings.widthAndHeightBackground} {settings.widthAndHeightBackground}" enable-background="new 0 0 {settings.widthAndHeightBackground} {settings.widthAndHeightBackground}" xml:space="preserve">
+	<defs>
+		<linearGradient id="normal" x1="0%" x2="100%" y1="0%" y2="0%" spreadMethod="pad">
+			<stop offset="50%" stop-color="white" />
+			<stop offset="50%" stop-color="white" />
+		</linearGradient>
+		<linearGradient id="half" x1="0%" x2="100%" y1="0%" y2="0%" spreadMethod="pad">
+			<stop offset="50%" stop-color="{settings.borderColor}" />
+			<stop offset="50%" stop-color="white" />
+		</linearGradient>
+		<linearGradient id="full" x1="0%" x2="100%" y1="0%" y2="0%" spreadMethod="pad">
+			<stop offset="50%" stop-color="{settings.borderColor}" />
+			<stop offset="50%" stop-color="{settings.borderColor}" />
+		</linearGradient>
+	</defs>
+	<polygon fill="url(#{starType})" stroke-linejoin="{f:if(condition: settings.roundedCorners, then: 'round', else: 'miter')}" stroke-width="{settings.borderWidth}" stroke="{settings.borderColor}" points="{coordinates}"/>
+</svg>

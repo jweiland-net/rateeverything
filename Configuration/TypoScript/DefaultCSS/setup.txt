@@ -1,0 +1,20 @@
+page.includeCSS {
+	rateeverything = EXT:rateeverything/Resources/Public/Css/Default.css
+}
+
+plugin.tx_rateeverything {
+	settings {
+		createSvgStars = 1
+		svgStars {
+			outerRadius = {$plugin.tx_rateeverything.settings.svgStars.outerRadius}
+			innerRadius = {$plugin.tx_rateeverything.settings.svgStars.innerRadius}
+			spikes = {$plugin.tx_rateeverything.settings.svgStars.spikes}
+			paddingTop = {$plugin.tx_rateeverything.settings.svgStars.paddingTop}
+			paddingLeft = {$plugin.tx_rateeverything.settings.svgStars.paddingLeft}
+			roundedCorners = {$plugin.tx_rateeverything.settings.svgStars.roundedCorners}
+			borderWidth = {$plugin.tx_rateeverything.settings.svgStars.borderWidth}
+			borderColor = {$plugin.tx_rateeverything.settings.svgStars.borderColor}
+			override = {$plugin.tx_rateeverything.settings.svgStars.override}
+		}
+	}
+}

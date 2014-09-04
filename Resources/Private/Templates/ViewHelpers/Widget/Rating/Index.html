@@ -1,0 +1,10 @@
+<f:for each="{stars}" as="css" iteration="iterator">
+	<f:if condition="{dimension}">
+		<f:then>
+			<span class="rating-{contentUid} rating-{contentUid}-{iterator.cycle} {css}" style="height: {dimension}px; width: {dimension}px;"></span>
+		</f:then>
+		<f:else>
+			<span class="rating-{contentUid} rating-{contentUid}-{iterator.cycle} {css}"></span>
+		</f:else>
+	</f:if>
+</f:for>

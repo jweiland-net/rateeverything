@@ -1,0 +1,31 @@
+page.includeJSlibs {
+	jQueryRateEverything = //ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
+	jQueryRateEverything.external = 1
+	jQueryRateEverything.if.isTrue = {$page.includeJSlibs.jQueryRateEverything}
+}
+
+plugin.tx_rateeverything {
+	view {
+		templateRootPath = {$plugin.tx_rateeverything.view.templateRootPath}
+		partialRootPath = {$plugin.tx_rateeverything.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_rateeverything.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_rateeverything.persistence.storagePid}
+	}
+	settings {
+
+	}
+}
+
+plugin.tx_rateeverything._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+)

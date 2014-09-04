@@ -1,0 +1,96 @@
+{namespace rate=JWeiland\Rateeverything\ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+	<p class="nomargin"><f:translate key="rateHelp"/></p>
+	<rate:widget.rating rating="{rating}" contentUid="{contentUid}" />
+	<p><f:translate key="averageRate"/>: <span class="ratingResult ratingResult-{contentUid}"></span> <f:translate key="star"/></p>
+
+	<script type="text/javascript">
+		/* save rating into DB */
+		var siteUrl = "{siteUrl}index.php";
+		var siteId = {siteId};
+		var rateTable = "{settings.table}";
+		var rateParent = {rateParent};
+		var hash = "{hash}";
+		var cUid = {contentUid};
+		var saveClasses = [];
+
+		jQuery( "span.ratingResult-" + cUid).text( {rating.rating} );
+
+		// change images on mouseover
+		// further the old classes has to be cached, to switch back to the old images on mouseout
+		$ratingStars = jQuery( "span.rating-" + cUid);
+		$ratingStars.on( "mouseover", function() {
+			// save current settings
+			$ratingStars.each(function(i) {
+				i++;
+				saveClasses[i] = jQuery( "span.rating-" + cUid + "-" + i).attr( "class" );
+			});
+			// clear all stars
+			$ratingStars.removeClass("icon-star icon-star-2 icon-star-3").addClass("icon-star");
+			// mark all stars till current mouse-pointed star
+			var rateValue = getRateValue( this );
+			for (var i = 1; i <= rateValue; i++) {
+				jQuery( "span.rating-" + cUid + "-" + i).removeClass( "icon-star").addClass( "icon-star-2").addClass( "linkColor" );
+			}
+		});
+
+		$ratingStars.on( "mouseout", function() {
+			// with click on a star saveClasses will be deleted
+			// so, if this value is empty we don't need to reset the stars.
+			if (saveClasses.length) {
+				jQuery( "span.rating-" + cUid).each(function(i) {
+					i++;
+					jQuery( "span.rating-" + cUid + "-" + i).attr( "class", saveClasses[i] );
+				});
+			}
+		});
+
+		$ratingStars.on( "click", function() {
+			// prevent mouseout to fill stars with old values
+			saveClasses = [];
+
+			var rateValue = getRateValue( this );
+
+			/* <![CDATA[ */
+			jQuery.ajax({
+				type: 'GET',
+				url: siteUrl,
+				dataType: 'json',
+				data: {
+					id: siteId,
+					type: 1372064680,
+					tx_rateeverything_rate: {
+						objectName: 'SaveRating',
+						arguments: {
+							rating: rateValue,
+							table: rateTable,
+							parent: rateParent,
+							hash: hash
+						}
+					}
+				},
+				success: function( json ) {
+					if (json.stars) {
+						for (var i = 1; i <= 5; i++) {
+							jQuery( "span.rating-" + cUid + "-" + i).removeClass( "icon-star icon-star-2 icon-star-3" ).addClass( json.stars[i] );
+						}
+					}
+					jQuery( "span.ratingResult-" + cUid).text( json.rating );
+				},
+				error: function( xhr, error ) {
+					console.log( error );
+				}
+			});
+			/* ]]> */
+		});
+
+		function getRateValue( object ) {
+			var classNames = jQuery( object ).attr( "class" ).split(" ");
+			var myRegExp = new RegExp(classNames[0] + "-");
+			return classNames[1].replace(myRegExp, "");
+		}
+	</script>
+</f:section>

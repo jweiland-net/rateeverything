@@ -1,0 +1,63 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEFAULT>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:rateeverything/Resources/Private/Language/FlexForms.xlf:sheetGeneral</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.table>
+						<TCEforms>
+							<label>LLL:EXT:rateeverything/Resources/Private/Language/FlexForms.xlf:table</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+								</items>
+								<itemsProcFunc>JWeiland\Rateeverything\Tca\FlexForm->fillSelectBox</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</settings.table>
+					<settings.ttContentUid>
+						<TCEforms>
+							<label>LLL:EXT:rateeverything/Resources/Private/Language/FlexForms.xlf:ttContentUid</label>
+							<displayCond>FIELD:settings.table:=:tt_content</displayCond>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+								<wizards>
+									<getContentUid>
+										<type>userFunc</type>
+										<userFunc>JWeiland\Rateeverything\Tca\FlexForm->getContentUid</userFunc>
+										<params>
+											<color>green</color>
+										</params>
+									</getContentUid>
+								</wizards>
+							</config>
+						</TCEforms>
+					</settings.ttContentUid>
+					<settings.getParam>
+						<TCEforms>
+							<label>LLL:EXT:rateeverything/Resources/Private/Language/FlexForms.xlf:getParam</label>
+							<displayCond>FIELD:settings.table:!IN:,pages,tt_content</displayCond>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</settings.getParam>
+				</el>
+			</ROOT>
+		</sDEFAULT>
+	</sheets>
+</T3DataStructure>

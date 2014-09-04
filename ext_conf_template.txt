@@ -1,0 +1,6 @@
+# cat=basic; type=string; label=LLL:EXT:rateeverything/Resources/Private/Language/ExtConf.xlf:allowedTables
+allowedTables = pages,tt_content,tt_news
+# cat=basic; type=boolean; label=LLL:EXT:rateeverything/Resources/Private/Language/ExtConf.xlf:allowMultipleRatings
+allowMultipleRatings = 0
+# cat=basic; type=int; label=LLL:EXT:rateeverything/Resources/Private/Language/ExtConf.xlf:roundResult
+roundResult = 2

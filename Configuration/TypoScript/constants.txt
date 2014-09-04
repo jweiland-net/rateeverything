@@ -1,0 +1,17 @@
+# cat=plugin.tx_rateeverything/enable; type=boolean; label=Add jQuery?
+page.includeJSlibs.jQueryRateEverything = 0
+
+plugin.tx_rateeverything {
+	view {
+		# cat=plugin.tx_rateeverything/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:rateeverything/Resources/Private/Templates/
+		# cat=plugin.tx_rateeverything/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:rateeverything/Resources/Private/Partials/
+		# cat=plugin.tx_rateeverything/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:rateeverything/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_rateeverything//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

@@ -1,0 +1,20 @@
+plugin.tx_rateeverything.settings.svgStars {
+	# cat=plugin.tx_rateeverything/dims/1; type=int+; label=Outer radius: Type in the radius of the outer points of the star
+	outerRadius = 10
+	# cat=plugin.tx_rateeverything/dims/2; type=int+; label=Inner radius: Type in the radius of the inner points of the star. Should be smaller than outerRadius
+	innerRadius = 5
+	# cat=plugin.tx_rateeverything/dims/3; type=int[3-20]; label=Spikes: How many skikes the star should get. 5 or 6 are normal, but should not be higher than 10
+	spikes = 5
+	# cat=plugin.tx_rateeverything/dims/4; type=int+; label=Padding top: This is only for justifying the star to center of the image. Normally this should not be changed
+	paddingTop = 2
+	# cat=plugin.tx_rateeverything/dims/5; type=int+; label=Padding left: This is only for justifying the star to center of the image. Normally this should not be changed
+	paddingLeft = 1
+	# cat=plugin.tx_rateeverything/dims/6; type=boolean; label=Rounded corners: If you think the spikes are too hard. Then check this option and you will get smooth rounded skipes
+	roundedCorners = 0
+	# cat=plugin.tx_rateeverything/dims/7; type=int[1-4]; label=Border width: How thick the border of the star should be. Normally 1 or 2 should be OK
+	borderWidth = 1
+	# cat=plugin.tx_rateeverything/dims/8; type=string; label=Border color: Change the color of the star Names (red, blue) or HEX (#45df23) should be OK
+	borderColor = red
+	# cat=plugin.tx_rateeverything/dims/9; type=boolean; label=Override icons (debugging): If activated, the stars will be generated with EACH call to the page. Good for debugging, bad for performance. If off, then we will check if file exists or not
+	override = 0
+}

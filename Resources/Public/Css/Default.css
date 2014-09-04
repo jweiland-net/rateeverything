@@ -1,0 +1,21 @@
+.icon-star {
+	background: url(../../../../../../uploads/tx_rateeverything/star-normal.svg);
+}
+
+.icon-star-2 {
+	background: url(../../../../../../uploads/tx_rateeverything/star-full.svg);
+}
+
+.icon-star-3 {
+	background: url(../../../../../../uploads/tx_rateeverything/star-half.svg);
+}
+
+.icon-star,
+.icon-star-2,
+.icon-star-3 {
+	cursor: pointer;
+	display: inline-block;
+	line-height: normal;
+	margin-right: 0.1em;
+	vertical-align: baseline;
+}
