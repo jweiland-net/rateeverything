@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-01-24T12:41:24Z" product-name="roadworks" target-language="sr">
+    <header/>
+    <body>
+      <trans-unit id="sheetGeneral">
+        <source>General</source>
+        <target state="needs-translation">General</target>
+      </trans-unit>
+      <trans-unit id="table">
+        <source>Choose table</source>
+        <target state="needs-translation">Choose table</target>
+      </trans-unit>
+      <trans-unit id="ttContentUid">
+        <source>Choose tt_content UID</source>
+        <target state="needs-translation">Choose tt_content UID</target>
+      </trans-unit>
+      <trans-unit id="getParam">
+        <source>Type in the get param from URI to identify the unique record UID. Maybe this for tt_news: tx_ttnews[tt_news]</source>
+        <target state="needs-translation">Type in the get param from URI to identify the unique record UID. Maybe this for tt_news: tx_ttnews[tt_news]</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
