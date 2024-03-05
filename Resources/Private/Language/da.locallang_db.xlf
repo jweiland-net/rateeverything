@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="da">
+    <header/>
+    <body>
+      <trans-unit id="plugin.title">
+        <source>Rate Everything</source>
+        <target state="needs-translation">Rate Everything</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating">
+        <source>Rate</source>
+        <target state="needs-translation">Rate</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+        <source>Amount</source>
+        <target state="needs-translation">Amount</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+        <source>Rating</source>
+        <target state="needs-translation">Rating</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
