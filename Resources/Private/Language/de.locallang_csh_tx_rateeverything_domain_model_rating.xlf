@@ -3,13 +3,13 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
     <header/>
     <body>
-      <trans-unit id="amount.description">
+      <trans-unit id="amount.description" approved="yes">
         <source>Amount</source>
-        <target state="needs-translation">Amount</target>
+        <target state="final">Menge</target>
       </trans-unit>
-      <trans-unit id="rating.description">
+      <trans-unit id="rating.description" approved="yes">
         <source>Rating</source>
-        <target state="needs-translation">Rating</target>
+        <target state="final">Bewertung</target>
       </trans-unit>
     </body>
   </file>
