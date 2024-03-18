@@ -1,39 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything">
-		<header/>
-		<body>
-
-			<trans-unit id="tx_rateeverything_domain_model_rating">
-				<source>Ratings</source>
-				<target>Bewertungen</target>
-			</trans-unit>
-			<trans-unit id="tx_rateeverything_domain_model_rating.amount">
-				<source>Amount</source>
-				<target>Anzahl</target>
-			</trans-unit>
-			<trans-unit id="tx_rateeverything_domain_model_rating.rating">
-				<source>Rating</source>
-				<target>Bewertung</target>
-			</trans-unit>
-
-			<trans-unit id="getPreviousContentUid">
-				<source>Get previous tt_content UID</source>
-				<target>Vorhergehende UID</target>
-			</trans-unit>
-
-			<trans-unit id="averageRate">
-				<source>Average Rating</source>
-				<target>Durchschnittliche Bewertung</target>
-			</trans-unit>
-			<trans-unit id="star">
-				<source>star(s)</source>
-				<target>Stern(e)</target>
-			</trans-unit>
-			<trans-unit id="rateHelp">
-				<source>Click on the desired star to give your rating.</source>
-				<target>Klicken Sie auf den gewünschten Stern, um auch Ihre Wertung abzugeben.</target>
-			</trans-unit>
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tx_rateeverything_domain_model_rating" approved="yes">
+        <source>Ratings</source>
+        <target state="final">Bewertungen</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount" approved="yes">
+        <source>Amount</source>
+        <target state="final">Menge</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating" approved="yes">
+        <source>Rating</source>
+        <target state="final">Bewertung</target>
+      </trans-unit>
+      <trans-unit id="getPreviousContentUid" approved="yes">
+        <source>Get previous tt_content UID</source>
+        <target state="final">Vorherige tt_content UID abrufen</target>
+      </trans-unit>
+      <trans-unit id="averageRate" approved="yes">
+        <source>Average Rating</source>
+        <target state="final">Durchschnittliche Bewertung</target>
+      </trans-unit>
+      <trans-unit id="star" approved="yes">
+        <source>star(s)</source>
+        <target state="final">Stern(e)</target>
+      </trans-unit>
+      <trans-unit id="rateHelp" approved="yes">
+        <source>Click on the desired star to give your rating.</source>
+        <target state="final">Klicken Sie auf den gewünschten Stern, um Ihre Bewertung abzugeben.</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
