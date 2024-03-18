@@ -3,33 +3,33 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
     <header/>
     <body>
-      <trans-unit id="tx_rateeverything_domain_model_rating">
+      <trans-unit id="tx_rateeverything_domain_model_rating" approved="yes">
         <source>Ratings</source>
-        <target state="needs-translation">Ratings</target>
+        <target state="final">Bewertungen</target>
       </trans-unit>
-      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount" approved="yes">
         <source>Amount</source>
-        <target state="needs-translation">Amount</target>
+        <target state="final">Menge</target>
       </trans-unit>
-      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating" approved="yes">
         <source>Rating</source>
-        <target state="needs-translation">Rating</target>
+        <target state="final">Bewertung</target>
       </trans-unit>
-      <trans-unit id="getPreviousContentUid">
+      <trans-unit id="getPreviousContentUid" approved="yes">
         <source>Get previous tt_content UID</source>
-        <target state="needs-translation">Get previous tt_content UID</target>
+        <target state="final">Vorherige tt_content UID abrufen</target>
       </trans-unit>
-      <trans-unit id="averageRate">
+      <trans-unit id="averageRate" approved="yes">
         <source>Average Rating</source>
-        <target state="needs-translation">Average Rating</target>
+        <target state="final">Durchschnittliche Bewertung</target>
       </trans-unit>
-      <trans-unit id="star">
+      <trans-unit id="star" approved="yes">
         <source>star(s)</source>
-        <target state="needs-translation">star(s)</target>
+        <target state="final">Stern(e)</target>
       </trans-unit>
-      <trans-unit id="rateHelp">
+      <trans-unit id="rateHelp" approved="yes">
         <source>Click on the desired star to give your rating.</source>
-        <target state="needs-translation">Click on the desired star to give your rating.</target>
+        <target state="final">Klicken Sie auf den gewünschten Stern, um Ihre Bewertung abzugeben.</target>
       </trans-unit>
     </body>
   </file>
