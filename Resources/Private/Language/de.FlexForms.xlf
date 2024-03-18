@@ -3,21 +3,21 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2013-01-24T12:41:24Z" product-name="roadworks" target-language="de">
     <header/>
     <body>
-      <trans-unit id="sheetGeneral">
+      <trans-unit id="sheetGeneral" approved="yes">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="final">Allgemein</target>
       </trans-unit>
-      <trans-unit id="table">
+      <trans-unit id="table" approved="yes">
         <source>Choose table</source>
-        <target state="needs-translation">Choose table</target>
+        <target state="final">Tabelle wählen</target>
       </trans-unit>
-      <trans-unit id="ttContentUid">
+      <trans-unit id="ttContentUid" approved="yes">
         <source>Choose tt_content UID</source>
-        <target state="needs-translation">Choose tt_content UID</target>
+        <target state="final">Wähle tt_content UID</target>
       </trans-unit>
-      <trans-unit id="getParam">
+      <trans-unit id="getParam" approved="yes">
         <source>Type in the get param from URI to identify the unique record UID. Maybe this for tt_news: tx_ttnews[tt_news]</source>
-        <target state="needs-translation">Type in the get param from URI to identify the unique record UID. Maybe this for tt_news: tx_ttnews[tt_news]</target>
+        <target state="final">Gib den get param von URI ein, um die eindeutige Datensatz-UID zu identifizieren. Vielleicht für tt_news: tx_ttnews[tt_news]</target>
       </trans-unit>
     </body>
   </file>
