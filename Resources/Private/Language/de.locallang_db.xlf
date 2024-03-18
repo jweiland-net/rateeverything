@@ -3,21 +3,21 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
     <header/>
     <body>
-      <trans-unit id="plugin.title">
+      <trans-unit id="plugin.title" approved="yes">
         <source>Rate Everything</source>
-        <target state="needs-translation">Rate Everything</target>
+        <target state="final">Alles bewerten</target>
       </trans-unit>
-      <trans-unit id="tx_rateeverything_domain_model_rating">
+      <trans-unit id="tx_rateeverything_domain_model_rating" approved="yes">
         <source>Rate</source>
-        <target state="needs-translation">Rate</target>
+        <target state="final">Bewerten</target>
       </trans-unit>
-      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount" approved="yes">
         <source>Amount</source>
-        <target state="needs-translation">Amount</target>
+        <target state="final">Menge</target>
       </trans-unit>
-      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating" approved="yes">
         <source>Rating</source>
-        <target state="needs-translation">Rating</target>
+        <target state="final">Bewertung</target>
       </trans-unit>
     </body>
   </file>
