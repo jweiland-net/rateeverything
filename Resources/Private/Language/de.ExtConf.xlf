@@ -3,17 +3,17 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
     <header/>
     <body>
-      <trans-unit id="allowedTables">
+      <trans-unit id="allowedTables" approved="yes">
         <source>Allowed tables: Type in a comma seperated list of all allowed tables</source>
-        <target state="needs-translation">Allowed tables: Type in a comma seperated list of all allowed tables</target>
+        <target state="final">Erlaubte Tabellen: Geben Sie eine durch Komma getrennte Liste aller zulässigen Tabellen ein</target>
       </trans-unit>
-      <trans-unit id="allowMultipleRatings">
+      <trans-unit id="allowMultipleRatings" approved="yes">
         <source>Allow multiple ratings: In default mode only one click/rating for each element is allowed. The information was saved within a session variable. So, after closing the browser the user can rate again. If you deactivate this checkbox there is no check anymore and the user can rate one single element multiple times. This is also good for debugging.</source>
-        <target state="needs-translation">Allow multiple ratings: In default mode only one click/rating for each element is allowed. The information was saved within a session variable. So, after closing the browser the user can rate again. If you deactivate this checkbox there is no check anymore and the user can rate one single element multiple times. This is also good for debugging.</target>
+        <target state="final">Mehrere Bewertungen erlauben: Im Standardmodus ist nur ein Klick/Bewertung für jedes Element erlaubt. Die Informationen wurden in einer Session-Variable gespeichert, so dass der Benutzer nach dem Schließen des Browsers erneut bewerten kann. Wenn Sie dieses Kontrollkästchen deaktivieren, gibt es keinen Haken mehr und der Benutzer kann ein einzelnes Element mehrmals bewerten. Dies ist auch gut zum Debuggen.</target>
       </trans-unit>
-      <trans-unit id="roundResult">
+      <trans-unit id="roundResult" approved="yes">
         <source>Round Result: Round result up to this amount of numbers after the comma. A normal value should be between 0 and 2</source>
-        <target state="needs-translation">Round Result: Round result up to this amount of numbers after the comma. A normal value should be between 0 and 2</target>
+        <target state="final">Rundenergebnis: Rundenergebnis bis zu diesem Betrag an Zahlen nach dem Komma. Ein normaler Wert sollte zwischen 0 und 2 liegen</target>
       </trans-unit>
     </body>
   </file>
