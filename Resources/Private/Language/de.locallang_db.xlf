@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything">
-		<header/>
-		<body>
-
-			<trans-unit id="plugin.title">
-				<source>Rate Everything</source>
-				<target>Bewertungen</target>
-			</trans-unit>
-
-			<trans-unit id="tx_rateeverything_domain_model_rating">
-				<source>Rate</source>
-				<target>Bewertung</target>
-			</trans-unit>
-			<trans-unit id="tx_rateeverything_domain_model_rating.amount">
-				<source>Amount</source>
-				<target>Anzahl</target>
-			</trans-unit>
-			<trans-unit id="tx_rateeverything_domain_model_rating.rating">
-				<source>Rating</source>
-				<target>Bewertung</target>
-			</trans-unit>
-
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="plugin.title" approved="yes">
+        <source>Rate Everything</source>
+        <target state="final">Alles bewerten</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating" approved="yes">
+        <source>Rate</source>
+        <target state="final">Bewerten</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount" approved="yes">
+        <source>Amount</source>
+        <target state="final">Menge</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating" approved="yes">
+        <source>Rating</source>
+        <target state="final">Bewertung</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
