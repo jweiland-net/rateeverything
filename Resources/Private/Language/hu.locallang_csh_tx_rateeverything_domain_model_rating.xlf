@@ -5,11 +5,11 @@
     <body>
       <trans-unit id="amount.description">
         <source>Amount</source>
-        <target state="needs-translation">Amount</target>
+        <target state="translated">Mennyiség</target>
       </trans-unit>
       <trans-unit id="rating.description">
         <source>Rating</source>
-        <target state="needs-translation">Rating</target>
+        <target state="translated">Értékelés</target>
       </trans-unit>
     </body>
   </file>
