@@ -5,11 +5,11 @@
     <body>
       <trans-unit id="plugin.title">
         <source>Rate Everything</source>
-        <target state="needs-translation">Rate Everything</target>
+        <target state="translated">Értékeljen mindent</target>
       </trans-unit>
       <trans-unit id="tx_rateeverything_domain_model_rating">
         <source>Rate</source>
-        <target state="needs-translation">Rate</target>
+        <target state="translated">Értékelés</target>
       </trans-unit>
       <trans-unit id="tx_rateeverything_domain_model_rating.amount">
         <source>Amount</source>
