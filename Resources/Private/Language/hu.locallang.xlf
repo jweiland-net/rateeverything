@@ -17,19 +17,19 @@
       </trans-unit>
       <trans-unit id="getPreviousContentUid">
         <source>Get previous tt_content UID</source>
-        <target state="needs-translation">Get previous tt_content UID</target>
+        <target state="translated">Előző tt_content UID lekérése</target>
       </trans-unit>
       <trans-unit id="averageRate">
         <source>Average Rating</source>
-        <target state="needs-translation">Average Rating</target>
+        <target state="translated">Átlagos értékelés</target>
       </trans-unit>
       <trans-unit id="star">
         <source>star(s)</source>
-        <target state="needs-translation">star(s)</target>
+        <target state="translated">csillag</target>
       </trans-unit>
       <trans-unit id="rateHelp">
         <source>Click on the desired star to give your rating.</source>
-        <target state="needs-translation">Click on the desired star to give your rating.</target>
+        <target state="translated">Kattintson a kívánt csillagra az értékelés leadásához.</target>
       </trans-unit>
     </body>
   </file>
