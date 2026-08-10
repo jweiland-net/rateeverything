@@ -13,11 +13,11 @@
       </trans-unit>
       <trans-unit id="tx_rateeverything_domain_model_rating.amount">
         <source>Amount</source>
-        <target state="needs-translation">Amount</target>
+        <target state="translated">Mennyiség</target>
       </trans-unit>
       <trans-unit id="tx_rateeverything_domain_model_rating.rating">
         <source>Rating</source>
-        <target state="needs-translation">Rating</target>
+        <target state="translated">Értékelés</target>
       </trans-unit>
     </body>
   </file>
