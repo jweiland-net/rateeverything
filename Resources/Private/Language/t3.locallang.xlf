@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="tx_rateeverything_domain_model_rating">
+        <source>Ratings</source>
+        <target>crwdns308852:0crwdne308852:0</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+        <source>Amount</source>
+        <target>crwdns308854:0crwdne308854:0</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+        <source>Rating</source>
+        <target>crwdns308856:0crwdne308856:0</target>
+      </trans-unit>
+      <trans-unit id="getPreviousContentUid">
+        <source>Get previous tt_content UID</source>
+        <target>crwdns308858:0crwdne308858:0</target>
+      </trans-unit>
+      <trans-unit id="averageRate">
+        <source>Average Rating</source>
+        <target>crwdns308860:0crwdne308860:0</target>
+      </trans-unit>
+      <trans-unit id="star">
+        <source>star(s)</source>
+        <target>crwdns308862:0crwdne308862:0</target>
+      </trans-unit>
+      <trans-unit id="rateHelp">
+        <source>Click on the desired star to give your rating.</source>
+        <target>crwdns308864:0crwdne308864:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
