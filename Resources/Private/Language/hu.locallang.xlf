@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="hu">
+    <header/>
+    <body>
+      <trans-unit id="tx_rateeverything_domain_model_rating">
+        <source>Ratings</source>
+        <target state="translated">Értékelések</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+        <source>Amount</source>
+        <target state="translated">Mennyiség</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+        <source>Rating</source>
+        <target state="translated">Értékelés</target>
+      </trans-unit>
+      <trans-unit id="getPreviousContentUid">
+        <source>Get previous tt_content UID</source>
+        <target state="translated">Előző tt_content UID lekérése</target>
+      </trans-unit>
+      <trans-unit id="averageRate">
+        <source>Average Rating</source>
+        <target state="translated">Átlagos értékelés</target>
+      </trans-unit>
+      <trans-unit id="star">
+        <source>star(s)</source>
+        <target state="translated">csillag</target>
+      </trans-unit>
+      <trans-unit id="rateHelp">
+        <source>Click on the desired star to give your rating.</source>
+        <target state="translated">Kattintson a kívánt csillagra az értékelés leadásához.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

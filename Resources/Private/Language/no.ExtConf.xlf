@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="no">
+    <header/>
+    <body>
+      <trans-unit id="allowedTables">
+        <source>Allowed tables: Type in a comma seperated list of all allowed tables</source>
+        <target state="needs-translation">Allowed tables: Type in a comma seperated list of all allowed tables</target>
+      </trans-unit>
+      <trans-unit id="allowMultipleRatings">
+        <source>Allow multiple ratings: In default mode only one click/rating for each element is allowed. The information was saved within a session variable. So, after closing the browser the user can rate again. If you deactivate this checkbox there is no check anymore and the user can rate one single element multiple times. This is also good for debugging.</source>
+        <target state="needs-translation">Allow multiple ratings: In default mode only one click/rating for each element is allowed. The information was saved within a session variable. So, after closing the browser the user can rate again. If you deactivate this checkbox there is no check anymore and the user can rate one single element multiple times. This is also good for debugging.</target>
+      </trans-unit>
+      <trans-unit id="roundResult">
+        <source>Round Result: Round result up to this amount of numbers after the comma. A normal value should be between 0 and 2</source>
+        <target state="needs-translation">Round Result: Round result up to this amount of numbers after the comma. A normal value should be between 0 and 2</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-06-22T07:51:22Z" product-name="rateeverything" target-language="ja">
+    <header/>
+    <body>
+      <trans-unit id="tx_rateeverything_domain_model_rating">
+        <source>Ratings</source>
+        <target state="needs-translation">Ratings</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.amount">
+        <source>Amount</source>
+        <target state="needs-translation">Amount</target>
+      </trans-unit>
+      <trans-unit id="tx_rateeverything_domain_model_rating.rating">
+        <source>Rating</source>
+        <target state="needs-translation">Rating</target>
+      </trans-unit>
+      <trans-unit id="getPreviousContentUid">
+        <source>Get previous tt_content UID</source>
+        <target state="needs-translation">Get previous tt_content UID</target>
+      </trans-unit>
+      <trans-unit id="averageRate">
+        <source>Average Rating</source>
+        <target state="needs-translation">Average Rating</target>
+      </trans-unit>
+      <trans-unit id="star">
+        <source>star(s)</source>
+        <target state="needs-translation">star(s)</target>
+      </trans-unit>
+      <trans-unit id="rateHelp">
+        <source>Click on the desired star to give your rating.</source>
+        <target state="needs-translation">Click on the desired star to give your rating.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
